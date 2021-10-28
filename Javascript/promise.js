@@ -1,6 +1,6 @@
 //promise = 
 //-resolve
-//-resolve
+//-reject
 //-pending
 
 function fun1(){
