@@ -74,4 +74,4 @@ console.log(fruits.reverse());
 // splice 
 const NAMES = ["ram","gani","sam","priya"];
 NAMES.splice(1,0, "zack");
-console.log(NAMES)
+console.log(NAMES);
