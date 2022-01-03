@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <form action="/">
+        <div>
+            <h1>Prime Hospitals</h1>
+        </div>
+        <div class="name-item">
+            <p>Patient name</p>
+            <input type="text" name="name" placeholder="enter name"/>
+        </div>
+        <div class="item">
+            <p>Date of Birth</p>
+            <input type="date" name="bdate" required/>
+            <i class="fas fa-calender-alt"></i>
+        </div>
+        <div class="item">
+            <p>Email</p>
+            <input type="text" name="email"/>
+        </div>
+        <div class="item">
+            <p>Phone</p>
+            <input type="text" name="phone" placeholder="### ### ####"/>
+        </div>
+        <div class="question">
+            <p>Gender</p>
+            <div class="question-answer">
+                    <div>
+                        <input type="radio" value="none" id="radio_1" name="gender"/>
+                        <label for="radio_1" class="radio"><span>Male</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_2" name="gender"/>
+                        <label for="radio_2" class="radio"><span>Female</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_3" name="gender"/>
+                        <label for="radio_3" class="radio"><span>Others</span></label>
+                    </div>
+            </div>
+        </div>
+        <div class="item">
+            <p>Address</p>
+            <input type="text" name="name" placeholder="Street address" required/>
+            <input type="text" name="name" placeholder="City" required/>
+            <div class="city-item">
+              <input type="text" name="name" placeholder="Postal / Zip code" required/>
+              <select required>
+                <option value="">State</option>
+                <option value="1">Andhra Pradesh</option>
+                <option value="2">Karnataka</option>
+                <option value="3">Telangana</option>
+                <option value="4">Kerala</option>
+                <option value="5">Maharastra</option>
+              </select>
+            </div>
+          </div>
+          <br/>
+          <div class="btn-block">
+            <button type="submit" href="/">Submit</button>
+          </div>
+    </form>
+</body>
+</html>
