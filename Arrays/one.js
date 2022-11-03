@@ -6,7 +6,7 @@ let students =[
         l_name:"ganesh",
         gender:"M",
         age:23,
-        paid = 100
+        paid : 100
     },
     {
         name:"samantha",

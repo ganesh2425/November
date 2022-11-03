@@ -1,0 +1,12 @@
+.c3 {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+p::first-line {
+    color: blue;
+}
+p::first-letter {
+    color: brown;
+}
